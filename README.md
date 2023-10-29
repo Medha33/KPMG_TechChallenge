@@ -20,3 +20,14 @@ Question 2:
 
 The script extracts the metadata of an Azure instance. 
 Additionally, it also retrieves a particular key-value as per the user's choice.
+
+By using Get-AzResource command, we're first extracting the metadata of the particular Azure instance, then converting it to JSON and storing it in a separate JSON file as well. 
+Then the user is asked to enter the key for which they want to know the value. 
+Here, we've used Switch case for different user choices. 
+
+
+Question 3:
+
+We have taken a nested object as an input. 
+The function returns the value, when the object and a key is passed as parameters. 
+
